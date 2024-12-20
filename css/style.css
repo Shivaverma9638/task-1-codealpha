@@ -1,0 +1,41 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body,html{
+   height: 100%;
+   width: 100%;
+}
+.container{
+   border: 1px solid rgb(148, 150, 151);
+   margin: 30px;
+}
+.container h1{
+   font-size: 50px;
+   font-weight: 900;
+   text-align: center;
+   margin: 20px 0;
+   color: tomato;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img-gellary{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+.img-gellary img{
+   height: 200px;
+   width: 300px;
+   padding: 5px;
+   background-repeat: no-repeat;
+   background-position: center;
+   transform: scale(1,1);
+   transition: transform 0.3s ease;
+   cursor: pointer;
+}
+.img-gellary img:hover{
+   transform: scale(1.1,1.1);
+}
